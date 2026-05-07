@@ -525,7 +525,7 @@ className="flex h-dvh max-h-dvh min-h-0 flex-col overflow-hidden bg-black text-m
                   <span
                     className={cn(
                       "px-5 pt-2.5 pb-1",
-                      "text-[0.6rem] tracking-[0.15em] opacity-30",
+                      "text-[0.65rem] opacity-30",
                     )}
                     id="hermes-sidebar-plugin-nav-heading"
                   >
@@ -652,7 +652,7 @@ function SidebarNavLink({ closeMobile, item, t }: SidebarNavLinkProps) {
           cn(
             "group relative flex items-center gap-3",
             "px-5 py-2.5",
-            "font-mondwest text-[0.8rem] tracking-[0.12em]",
+            "text-sm",
             "whitespace-nowrap transition-colors cursor-pointer",
             "focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-midground",
             isActive ? "text-midground" : "opacity-60 hover:opacity-100",
@@ -727,7 +727,7 @@ function SidebarSystemActions({ onNavigate }: { onNavigate: () => void }) {
       <span
         className={cn(
           "px-5 pt-0.5 pb-0.5",
-          "text-[0.6rem] tracking-[0.15em] opacity-30",
+          "text-[0.65rem] opacity-30",
         )}
       >
         {t.app.system}
@@ -753,7 +753,7 @@ function SidebarSystemActions({ onNavigate }: { onNavigate: () => void }) {
                 active={busy}
                 className={cn(
                   "gap-3 px-5 py-1.5 whitespace-nowrap",
-                  "font-mondwest text-[0.75rem] tracking-[0.1em]",
+                  "text-xs",
                   "transition-opacity",
                   busy
                     ? "text-midground opacity-100"

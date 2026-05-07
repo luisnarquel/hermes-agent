@@ -290,7 +290,7 @@ export default function PluginsPage() {
 
         <div className="flex flex-col gap-3">
 
-          <h3 className="font-mondwest text-[0.75rem] tracking-[0.12em] text-midground/85">
+          <h3 className="text-sm text-midground/85">
             {t.pluginsPage.pluginListHeading}
           </h3>
 
@@ -328,7 +328,7 @@ export default function PluginsPage() {
 
           <div className="flex flex-col gap-3 opacity-95">
 
-            <h3 className="font-mondwest text-[0.75rem] tracking-[0.12em] text-midforeground/85">
+            <h3 className="text-sm text-midground/85">
               {t.pluginsPage.orphanHeading}
             </h3>
 

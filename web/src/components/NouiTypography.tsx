@@ -14,7 +14,7 @@ type TypographyProps = HTMLAttributes<HTMLElement> & {
 };
 
 const variantClasses: Record<NonNullable<TypographyProps["variant"]>, string> = {
-  sm: "leading-[1.4] text-[.9375rem] tracking-[0.1875rem]",
+  sm: "leading-[1.4] text-[.9375rem]",
   md: "text-[2.625rem] leading-[1] tracking-[0.0525rem]",
   lg: "text-[2.625rem] leading-[1] tracking-[0.0525rem]",
   xl: "text-[4.5rem] leading-[1] tracking-[0.135rem]",
@@ -42,8 +42,8 @@ export const Typography = forwardRef<HTMLElement, TypographyProps>(function Typo
       className={cn(
         compressed && "font-compressed",
         courier && "font-courier",
-        expanded && "font-expanded",
-        mondwest && "font-mondwest tracking-[0.1875rem]",
+        expanded && "font-sans",
+        mondwest && "font-sans",
         mono && "font-mono",
         (!hasFontVariant || sans) && "font-sans",
         variant && variantClasses[variant],

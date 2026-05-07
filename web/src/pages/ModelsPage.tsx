@@ -244,7 +244,7 @@ function UseAsMenu({
             )}
           </button>
 
-          <div className="border-t border-border/50 px-3 py-1.5 text-[9px] uppercase tracking-wider text-muted-foreground">
+          <div className="border-t border-border/50 px-3 py-1.5 text-[9px] text-muted-foreground">
             Auxiliary task
           </div>
 
@@ -525,7 +525,7 @@ function ModelSettingsPanel({
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 mb-0.5">
               <Star className="h-3 w-3 text-primary" />
-              <span className="text-xs font-medium uppercase tracking-wider">
+              <span className="text-xs font-medium">
                 Main model
               </span>
             </div>
@@ -548,7 +548,7 @@ function ModelSettingsPanel({
         {expanded && (
           <div className="space-y-1 border-t border-border/50 pt-3">
             <div className="flex items-center justify-between pb-1">
-              <div className="text-[10px] uppercase tracking-wider text-muted-foreground">
+              <div className="text-[10px] text-muted-foreground">
                 Auxiliary tasks
               </div>
               <Button

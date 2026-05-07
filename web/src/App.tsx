@@ -399,7 +399,7 @@ export default function App() {
   return (
     <div
       data-layout-variant={layoutVariant}
-      className="font-mondwest flex h-dvh max-h-dvh min-h-0 flex-col overflow-hidden bg-black uppercase text-midground antialiased"
+className="flex h-dvh max-h-dvh min-h-0 flex-col overflow-hidden bg-black text-midground antialiased"
     >
       <SelectionSwitcher />
       <Backdrop />
@@ -525,7 +525,7 @@ export default function App() {
                   <span
                     className={cn(
                       "px-5 pt-2.5 pb-1",
-                      "font-mondwest text-[0.6rem] tracking-[0.15em] uppercase opacity-30",
+                      "text-[0.6rem] tracking-[0.15em] opacity-30",
                     )}
                     id="hermes-sidebar-plugin-nav-heading"
                   >
@@ -727,7 +727,7 @@ function SidebarSystemActions({ onNavigate }: { onNavigate: () => void }) {
       <span
         className={cn(
           "px-5 pt-0.5 pb-0.5",
-          "font-mondwest text-[0.6rem] tracking-[0.15em] uppercase opacity-30",
+          "text-[0.6rem] tracking-[0.15em] opacity-30",
         )}
       >
         {t.app.system}

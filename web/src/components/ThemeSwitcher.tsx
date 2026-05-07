@@ -67,7 +67,7 @@ export function ThemeSwitcher({ dropUp = false }: ThemeSwitcherProps) {
 
           <Typography
             mondwest
-            className="hidden sm:inline tracking-wide uppercase text-[0.65rem]"
+            className="hidden sm:inline text-[0.65rem]"
           >
             {label}
           </Typography>
@@ -88,7 +88,7 @@ export function ThemeSwitcher({ dropUp = false }: ThemeSwitcherProps) {
           <div className="border-b border-current/20 px-3 py-2">
             <Typography
               mondwest
-              className="text-[0.65rem] tracking-[0.15em] uppercase text-midground/70"
+              className="text-[0.65rem] text-midground/70"
             >
               {t.theme?.title ?? "Theme"}
             </Typography>
@@ -119,7 +119,7 @@ export function ThemeSwitcher({ dropUp = false }: ThemeSwitcherProps) {
                 <div className="flex min-w-0 flex-1 flex-col gap-0.5">
                   <Typography
                     mondwest
-                    className="truncate text-[0.75rem] tracking-wide uppercase"
+                    className="truncate text-[0.75rem]"
                   >
                     {th.label}
                   </Typography>

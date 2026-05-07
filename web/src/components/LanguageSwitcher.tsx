@@ -57,8 +57,7 @@ export function LanguageSwitcher() {
         <span className="inline-flex items-center gap-1.5">
           <span className="text-base leading-none">{current.flag}</span>
           <Typography
-            mondwest
-            className="hidden sm:inline tracking-wide uppercase text-[0.65rem]"
+            className="hidden sm:inline text-[0.65rem]"
           >
             {locale === "en" ? "EN" : current.name}
           </Typography>

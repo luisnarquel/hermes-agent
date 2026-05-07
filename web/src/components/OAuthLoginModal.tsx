@@ -185,7 +185,7 @@ export function OAuthLoginModal({ provider, onClose, onSuccess }: Props) {
               id="oauth-modal-title"
               variant="sm"
               mondwest
-              className="tracking-wider uppercase"
+              className=""
             >
               {t.oauth.connect} {provider.name}
             </H2>
